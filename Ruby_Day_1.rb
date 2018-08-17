@@ -1,11 +1,18 @@
-def two_step
-    puts "step to the left."
-    puts "step to the right."
-end
+# favorite_songs = [
+#   tops = ["blouses", "t shirt", "jacketets"],
+#   bottoms = ["jeans", "skirts", "shorts"],
+#   shoes = ["sandals", "sneakers", "heels"]
+#   ]
+  
+#   puts favorite_songs[2][2]
 
-two_step
-two_step
-two_step
-two_step
-two_step
-two_step
+closet = {
+  "tops" => ["rain jacket", "cardagain", "blazer"],
+  "bottoms" => ["jeans", "skirt", "capris"],
+  "footwear" => ["sneakers", "heels", "flats"]
+}
+closet["footwear"] << "converse"
+# puts closet["tops"][1]
+puts closet
+
+
